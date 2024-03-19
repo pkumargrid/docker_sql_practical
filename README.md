@@ -56,7 +56,6 @@ Here's how to use Docker Compose to create a local database with the custom SQL 
     ```bash
     docker-compose down
     ```
-
     This will stop and remove the container.
    ```
 ## If same volume is in use and re running it may not give you the logs, then you can run:
