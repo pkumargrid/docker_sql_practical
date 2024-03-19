@@ -63,7 +63,7 @@ Here's how to use Docker Compose to create a local database with the custom SQL 
 ```
 docker logs <container-id>
 ```
-    **find the container id using docker ps
+  --find the container id using docker ps
 
 ## Additional Information
 
