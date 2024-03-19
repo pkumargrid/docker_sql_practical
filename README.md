@@ -59,11 +59,11 @@ Here's how to use Docker Compose to create a local database with the custom SQL 
 
     This will stop and remove the container.
    ```
-# If same volume is in use and re running it may not give you the logs, then you can run:
+## If same volume is in use and re running it may not give you the logs, then you can run:
 ```
 docker logs <container-id>
 ```
-**find the container id using docker ps
+    **find the container id using docker ps
 
 ## Additional Information
 
