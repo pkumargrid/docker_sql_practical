@@ -9,12 +9,12 @@ services:
     ports:
       - "${POSTGRES_DB_PORT}:5432"
     volumes:
-      - ./sql-scripts:/docker-entrypoint-initdb.d
-      - postgres-data:/var/lib/postgresql/data
+      - ./sql-scripting/task.sql:/docker-entrypoint-initdb.d/task.sql
+      - postgres-check:/var/lib/postgresql/data
 
   my-app:
     build: .
 
 volumes:
-  postgres-data:
+  postgres-check:
 
