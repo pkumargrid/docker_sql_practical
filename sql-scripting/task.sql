@@ -11,7 +11,7 @@ create table admin(
 
 create table health_care_provider(
 	id serial primary key,
-	amdin_id int references admin(id)
+	admin_id int references admin(id)
 );
 
 /* nurse belonging to one health care provider oganisation */
